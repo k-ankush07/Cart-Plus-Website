@@ -21,7 +21,6 @@ export default function CTA() {
             optimization built for modern Shopify brands.
           </p>
           <div className="mt-[20px] max-[430px]:block  flex items-center justify-center gap-4">
-<<<<<<< HEAD
             <a href='https://apps.shopify.com/cart-plus-3' target="_blank" rel="noopener noreferrer">
               <Button className='max-[430px]:mb-[20px]' variant="pill" icon="https://hubsyntax.com/cart-images/buttonIcon.png">Start Free Trial</Button>
             </a>
@@ -29,13 +28,5 @@ export default function CTA() {
         </div>
       </Container>
     </section >
-=======
-            <Button className='max-[430px]:mb-[20px]' variant="pill" icon="https://hubsyntax.com/cart-images/buttonIcon.png">Start Free Trial</Button>
-
-          </div>
-        </div>
-      </Container>
-    </section>
->>>>>>> 82fc23400dc276e7412d8d9e4bdf35ecbf526075
   )
 }

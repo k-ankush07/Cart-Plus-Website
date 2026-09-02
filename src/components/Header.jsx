@@ -49,7 +49,9 @@ export default function Header() {
 
           {/* Desktop Button */}
           <div className="flex items-center gap-4">
-            <Button>Install Now</Button>
+            <a href='https://apps.shopify.com/cart-plus-3' target="_blank" rel="noopener noreferrer">
+              <Button>Install Now</Button>
+            </a>
           </div>
         </Container>
       </header>
@@ -98,7 +100,8 @@ export default function Header() {
           </Link>
 
           {/* Install Now Button */}
-          <Button className="text-[13px] px-4 py-2">Install Now</Button>
+          <a href='https://apps.shopify.com/cart-plus-3' target="_blank" rel="noopener noreferrer">
+            <Button className="text-[13px] px-4 py-2">Install Now</Button></a>
         </div>
       </header>
 

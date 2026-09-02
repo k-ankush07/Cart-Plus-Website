@@ -115,15 +115,6 @@ export default function Pricing({ showGradient }) {
             </p>
           </div>
 
-<<<<<<< HEAD
-=======
-          {/*
-            NOTE: py-[20px] added here to give the grid breathing room
-            above/below so the translateY(-20px) pop-out on the active
-            card never visually collides with the row above/below it.
-            Adjust to taste.
-          */}
->>>>>>> 82fc23400dc276e7412d8d9e4bdf35ecbf526075
           <div className='grid max-[768px]:grid-cols-1 max-[1025px]:grid-cols-2 min-[1025px]:grid-cols-3 min-[1280px]:grid-cols-4 gap-[50px] md:gap-[50px] lg:gap-[40px] xl:gap[30px] items-stretch max-[540px]:pt-[0] pt-[20px] px-[0] lg:px-[40px] py-[20px]'>
             {plans.map((plan) => {
               const isActive = hoveredId ? hoveredId === plan.id : plan.id === DEFAULT_ACTIVE_ID
@@ -222,7 +213,6 @@ export default function Pricing({ showGradient }) {
                   </div>
 
                   {/* CTA pinned to bottom */}
-<<<<<<< HEAD
                   <a href='https://apps.shopify.com/cart-plus-3' target="_blank" rel="noopener noreferrer">
                     <button
                       className='w-full relative cursor-pointer border-none bg-transparent p-0'
@@ -243,26 +233,6 @@ export default function Pricing({ showGradient }) {
                       </span>
                     </button>
                   </a>
-=======
-                  <button
-                    className='w-full relative cursor-pointer border-none bg-transparent p-0'
-                  >
-                    <img
-                      src={isActive
-                        ? 'https://cartplus.io/cartplus-img/Frame 2121452755.svg'
-                        : 'https://cartplus.io/cartplus-img/Frame 29.svg'
-                      }
-                      alt=''
-                      className='w-full h-[56px] object-fill'
-                      loading='lazy'
-                      decoding='async'
-                    />
-                    <span className={`absolute inset-0 flex items-center justify-center text-[18px] font-semibold
-                      ${isActive ? 'text-white' : 'text-[#1D1E20]'}`}>
-                      {plan.cta}
-                    </span>
-                  </button>
->>>>>>> 82fc23400dc276e7412d8d9e4bdf35ecbf526075
                 </div>
               )
             })}
