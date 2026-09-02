@@ -55,9 +55,13 @@ export default function CustomizeCart() {
                             </div>
                         ))}
                         <div className='max-[540px]:mt-[20px]'>
+<<<<<<< HEAD
                              <a href='https://apps.shopify.com/cart-plus-3' target="_blank" rel="noopener noreferrer">
                             <Button icon="https://cartplus.io/cartplus-img/buttonIcon.png">Start Free Trial</Button>
                             </a>
+=======
+                            <Button icon="https://cartplus.io/cartplus-img/buttonIcon.png">Start Free Trial</Button>
+>>>>>>> 82fc23400dc276e7412d8d9e4bdf35ecbf526075
                         </div>
                     </div>
                 </div>

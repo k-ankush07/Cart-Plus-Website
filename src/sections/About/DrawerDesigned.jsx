@@ -48,9 +48,13 @@ export default function DrawerDesigned() {
 
                         {/* CTA Button */}
                         <div>
+<<<<<<< HEAD
                             <a href='https://apps.shopify.com/cart-plus-3' target="_blank" rel="noopener noreferrer">
                             <Button icon="https://cartplus.io/cartplus-img/Vector (6).png"> Install The App</Button>
                             </a>
+=======
+                            <Button icon="https://cartplus.io/cartplus-img/Vector (6).png"> Install The App</Button>
+>>>>>>> 82fc23400dc276e7412d8d9e4bdf35ecbf526075
                         </div>
                     </div>
 
