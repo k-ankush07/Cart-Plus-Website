@@ -2,8 +2,7 @@ import React from 'react'
 
 const variants = {
   primary: 'bg-black text-white hover:bg-gray-800',
-  secondary:
-    'bg-[linear-gradient(180deg,#000000_0%,#9500FF_174.83%)] text-white hover:opacity-90',
+  secondary:'bg-[linear-gradient(43.79deg,#703CE1_19.27%,#1E0555_115.21%)] text-white hover:opacity-90',
   ghost: 'bg-transparent text-black border hover:bg-gray-100',
   pill: 'bg-white text-black hover:bg-gray-100 rounded-full justify-center',
 };

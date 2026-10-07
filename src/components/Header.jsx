@@ -33,7 +33,7 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src="https://cartplus.io/cartplus-img/CartLogo.svg"
+              src="https://cartplus.io/cartplus-img/Full%20Logo(Dark).svg"
               alt="CartPlus"
               className="w-auto"
             />
@@ -92,7 +92,7 @@ export default function Header() {
           <Link to="/">
             <div className='max-w-[125px] sm:max-w-[170px]'>
               <img
-                src="https://cartplus.io/cartplus-img/CartLogo.svg"
+                src="https://cartplus.io/cartplus-img/Full%20Logo(Dark).svg"
                 alt="CartPlus"
                 className="w-auto"
               />
@@ -123,7 +123,7 @@ export default function Header() {
           <Link to="/">
             <div className='max-w-[125px] sm:max-w-[170px]'>
               <img
-                src="https://cartplus.io/cartplus-img/websiteLogo.png"
+                src="https://cartplus.io/cartplus-img/Full%20Logo(Dark)%20(1).svg"
                 alt="CartPlus"
                 className=" w-auto"
               />
