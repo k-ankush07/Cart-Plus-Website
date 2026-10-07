@@ -31,7 +31,8 @@ const CONTACT_INFO = [
 ]
 
 // ── API config ───────────────────────────────────────────────────────────
-const API_ENDPOINT = import.meta.env.VITE_CONTACT_API_URL
+const API_ENDPOINT = "https://app.cartplus.io/api/contact"
+const VITE_API_SECRET_KEY = "8f4c2a91d7e3b6f5a8c1d9e2f7b4c6a9e1d3f8b5c2a7d4e9f6b1c8a3d7e5f2"
 
 export default function ContactForm() {
   const [form, setForm] = useState({
@@ -188,7 +189,7 @@ export default function ContactForm() {
         'Content-Type': 'application/json',
         // NOTE: shipped to the browser bundle — visible to anyone via dev tools.
         // Not a real secret in production; see comment above API_ENDPOINT.
-        'X-API-Key': import.meta.env.VITE_API_SECRET_KEY,
+        'X-API-Key': VITE_API_SECRET_KEY,
       },
       body: JSON.stringify(submittedForm),
     })
