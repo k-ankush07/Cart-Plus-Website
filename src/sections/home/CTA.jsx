@@ -9,7 +9,7 @@ export default function CTA() {
         <div
           style={{
             background:
-              'linear-gradient(180deg, #000000 0%, #9500FF 174.83%)',
+              'linear-gradient(43.79deg, #703CE1 19.27%, #1E0555 115.21%)',
           }}
           className="relative overflow-hidden rounded-[15px] max-[390px]:px-4 px-8 max-[390px]:py-4 py-[30px] md:py-[80px] text-center text-white" >
           <h2 className='heading-line-height font-bold font-bold max-[540px]:text-[26px] text-[45px] lg:text-[55px] leading-[45px] lg:leading-[60px] mb-[20px] text-center'>

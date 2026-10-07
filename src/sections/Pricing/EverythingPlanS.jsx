@@ -114,7 +114,7 @@ export default function EverythingPlan() {
                                 style={{
                                     left: 'calc(100% / 5 * 2)',
                                     width: 'calc(100% / 5)',
-                                    background: 'linear-gradient(180deg, #000000 0%, #9500FF 174.83%)',
+                                    background: 'linear-gradient(43.79deg, #703CE1 19.27%, #1E0555 115.21%)',
                                     boxShadow: 'inset 0 0 0 1px rgba(222,175,255,0.5)',
                                 }}
                             />

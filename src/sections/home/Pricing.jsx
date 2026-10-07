@@ -135,8 +135,8 @@ export default function Pricing({ showGradient }) {
                     isActive
                       ? {
                         background: `
-          linear-gradient(180deg, #000000 0%, #9500FF 174.83%) padding-box,
-          linear-gradient(226.64deg, #DEAFFF 31.01%, rgba(80, 0, 137, 0) 85.74%) border-box
+          linear-gradient(43.79deg, #703CE1 19.27%, #1E0555 115.21%), padding-box,
+           border-box
         `,
                         border: '1px solid transparent',
                         borderRadius: '10px',

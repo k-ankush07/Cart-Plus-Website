@@ -22,7 +22,7 @@ export default function Footer() {
           <Link to="/" onClick={scrollToTop} className="flex items-center">
             <div className='max-w-[178px]'>
               <img
-                src="https://cartplus.io/cartplus-img/Layer_1 (1).png"
+                src="https://cartplus.io/cartplus-img/Full%20Logo(Dark)%20(2).svg"
                 alt="HubCart"
                 loading="lazy"
                 decoding="async"
