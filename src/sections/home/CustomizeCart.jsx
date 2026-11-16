@@ -35,7 +35,7 @@ export default function CustomizeCart() {
                     {/* IMAGE — mobile pe pehle, md pe doosre number pe */}
                     <div className='w-full order-2 md:order-1'>
                         <img
-                            src='https://cartplus.io/cartplus-img/Group%201707480445.svg'
+                            src='https://cartplus.io/cartplus-img/Group 1707480450.svg'
                             alt='HubCart'
                             loading='lazy'
                             decoding='async'

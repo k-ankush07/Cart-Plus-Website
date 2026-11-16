@@ -22,7 +22,7 @@ export default function Home() {
         heading='Boost Your Revenue with Smart Checkout & Upsell Tools'
         paragraph='Increase AOV and revenue with smart upsells, rewards, and a friction-free checkout experience.'
         buttonText='Try Demo'
-        img='https://cartplus.io/cartplus-img/hero-center-aligner1.svg'
+        img='https://cartplus.io/cartplus-img/hero-center-aligner01.svg'
         link='https://cart-plus-n5wxxnix.myshopify.com/'
       />
       <Features />
