@@ -96,7 +96,7 @@ export default function EverythingPlan() {
 
                 {/* Heading */}
                 <div className='text-center max-[540px]:mb-[10px] mb-[20px]'>
-                    <h2 className='font-bold max-[540px]:text-[26px] text-[45px] lg:text-[50px] leading-[45px] lg:leading-[60px] mb-[10px]'>
+                    <h2 className='font-bold max-[540px]:text-[26px] text-[45px] lg:text-[50px] max-[540px]:leading-[35px] leading-[55px] lg:leading-[60px] mb-[10px]'>
                         See Everything Included In Each Plan
                     </h2>
                     <p className='max-[540px]:text-[14px] text-[18px] max-[540px]:leading-[22px] leading-[28px] mx-auto max-w-[950px]'>
